@@ -17,7 +17,7 @@ use BlackCat\Database\Support\DtoHydrator;
 final class RetentionEnforcementJobDtoMapper
 {
     /** @var array<string,string> Column -> DTO property */
-    private const COL_TO_PROP = [ 'policy_id' => 'policyId', 'scheduled_at' => 'scheduledAt', 'started_at' => 'startedAt', 'finished_at' => 'finishedAt', 'processed_count' => 'processedCount', 'created_at' => 'createdAt' ];
+    private const COL_TO_PROP = [ 'id' => 'id', 'policy_id' => 'policyId', 'scheduled_at' => 'scheduledAt', 'started_at' => 'startedAt', 'finished_at' => 'finishedAt', 'status' => 'status', 'processed_count' => 'processedCount', 'error' => 'error', 'created_at' => 'createdAt' ];
 
     /** @var string[] */
     private const BOOL_COLS   = [];
