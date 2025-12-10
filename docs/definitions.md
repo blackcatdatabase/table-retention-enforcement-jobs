@@ -46,5 +46,5 @@ Foreign keys:
 ## Views
 | View | Engine | Flags | File |
 | --- | --- | --- | --- |
-| vw_retention_enforcement_jobs | mysql | algorithm=MERGE, security=INVOKER | [schema\040_views.mysql.sql](schema\040_views.mysql.sql) |
-| vw_retention_enforcement_jobs | postgres |  | [schema\040_views.postgres.sql](schema\040_views.postgres.sql) |
+| vw_retention_enforcement_jobs | mysql | algorithm=MERGE, security=INVOKER | [../schema/040_views.mysql.sql](../schema/040_views.mysql.sql) |
+| vw_retention_enforcement_jobs | postgres |  | [../schema/040_views.postgres.sql](../schema/040_views.postgres.sql) |
