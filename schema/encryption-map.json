@@ -1,0 +1,35 @@
+{
+  "tables": {
+    "retention_enforcement_jobs": {
+      "columns": {
+        "created_at": {
+          "strategy": "passthrough"
+        },
+        "error": {
+          "strategy": "passthrough"
+        },
+        "finished_at": {
+          "strategy": "passthrough"
+        },
+        "id": {
+          "strategy": "passthrough"
+        },
+        "policy_id": {
+          "strategy": "passthrough"
+        },
+        "processed_count": {
+          "strategy": "passthrough"
+        },
+        "scheduled_at": {
+          "strategy": "passthrough"
+        },
+        "started_at": {
+          "strategy": "passthrough"
+        },
+        "status": {
+          "strategy": "passthrough"
+        }
+      }
+    }
+  }
+}
